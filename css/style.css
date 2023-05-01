@@ -83,11 +83,59 @@ li{
     color: #FBFBFB;
     background-color: #FEBD19;
     text-decoration: none;
-    padding: .5625rem 3.4375rem .5625rem 3.4375rem;
+    padding: .5625rem 3.4375rem;
     border-radius: 1.5625rem;
 }
 
 /* NavBar Stop */
+/* ===================== */
+/* Header start */
+
+#header{
+    height: 100vh;
+    max-height: 67.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/header_background.png);
+}
+
+#div_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#p_header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.4375rem;
+    line-height: 4.1875rem;
+    color: #FBFBFB;
+    text-shadow: .25rem .25rem 1.25rem #000000;
+    margin: 2.5rem 0rem;
+    text-align: center;
+}
+
+#div_btn_contact_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_contact_header{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4375rem;
+    color: #FBFBFB;
+    padding: .9375rem 3.125rem;
+    background-color: #FEBD19;
+    text-decoration: none;
+    border-radius: 3.125rem;
+}
+
+/* Header stop */
 /* ===================== */
 
 
