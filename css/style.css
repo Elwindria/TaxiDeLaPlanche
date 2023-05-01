@@ -1,6 +1,96 @@
-.logo_nav_bar{
-    width: 12.5rem;
+/* All */
+
+html{
+    scroll-behavior:smooth;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+}
+
+#desktop{
+    max-width: 120rem;
+}
+
+/* ===================== */
+/* NavBar start  */
+
+.logo_nav_bar{
+    width: 7.3125rem;
+}
+
+#nav_bar{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3125rem 6.25rem .3125rem 6.25rem;
+    height: 5.625rem;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+}
+
+#nav_bar_left{
+    display: flex;
+    gap: 1.875rem;
+}
+
+#site_name{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration-line: underline;
+    color: #FEBD19;
+}
+
+#ul_nav{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 3.125rem;
+}
+
+li{
+    list-style: none;
+}
+
+.text_nav_bar{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    color: #FEBD19;
+    text-decoration-line: none;
+}
+
+#btn_contact_nav_bar{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    align-items: center;
+    color: #FBFBFB;
+    background-color: #FEBD19;
+    text-decoration: none;
+    padding: .5625rem 3.4375rem .5625rem 3.4375rem;
+    border-radius: 1.5625rem;
+}
+
+/* NavBar Stop */
+/* ===================== */
+
+
 
 .asset_svg{
     width: 12.5rem;
