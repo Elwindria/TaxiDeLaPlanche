@@ -1,3 +1,11 @@
 .logo_nav_bar{
     width: 12.5rem;
 }
+
+.asset_svg{
+    width: 12.5rem;
+}
+
+#asset_div{
+    background-color: #FEBD19;
+}
