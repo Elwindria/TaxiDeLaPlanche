@@ -19,6 +19,10 @@ body{
     max-width: 120rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* ===================== */
 /* NavBar start  */
 
@@ -52,7 +56,6 @@ body{
     font-size: 2rem;
     text-decoration-line: underline;
     color: #FEBD19;
-    text-decoration-color: #FEBD19;
 }
 
 #ul_nav{
