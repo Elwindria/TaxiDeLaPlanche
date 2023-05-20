@@ -187,3 +187,47 @@ li{
 
 /* Asset Stop */
 /* ===================== */
+/* Discover start */
+
+#discover{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+    background-color: #FBFBFB;
+}
+
+#discover_div_main{
+    display: flex;
+    align-items: center;
+}
+
+#discover_div_text{
+    padding: 0 6.25rem;
+}
+
+#discover_title{
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #000000;
+}
+
+#discover_p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+#discover_img{
+    width: 56.25rem;
+}
+
+#discover_trait{
+    width: 56.25rem;
+    height: .3125rem;
+    background: #FEBD19;
+    border-radius: 1.875rem;
+    align-self: center;
+}
+
+/* Discover stop */
+/* ===================== */
