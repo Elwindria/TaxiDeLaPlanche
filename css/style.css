@@ -236,7 +236,7 @@ li{
     display: flex;
     flex-direction: column;
     background-color: #FBFBFB;
-    padding: 3.125rem 12.5rem;
+    padding: 3.125rem 11.25rem;
     box-sizing: border-box;
 }
 
@@ -250,6 +250,7 @@ li{
 #contact_div_main{
     display: flex;
     padding-top: 3.125rem;
+    gap: 3.125rem;
 }
 
 #contact_div_left{
@@ -258,7 +259,6 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 12.5rem;
 }
 
 .contact_p{
@@ -279,6 +279,72 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.form_div_double{
+    display: flex;
+    gap: 3.125rem;
+}
+
+.form_div_flex{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.input{
+    text-align: center;  
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000000;
+    background-color: unset;
+    border: unset;
+    border-bottom: .1875rem solid#FEBD19;
+    text-align: left;
+    text-indent: .9rem;
+    padding: 0 0 .3125rem 0;
+}
+
+.input_small{
+    width: 18.75rem;
+}
+
+.input_big{
+    width: 40.625rem;
+}
+
+#text_form{
+    border: 3px solid #FEBD19;
+    border-radius: .625rem;
+    width: 40.625rem;
+    height: 9.375rem;
+}
+
+#submit{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.625rem;
+    align-items: center;
+    color: #FBFBFB;
+    background-color: #FEBD19;
+    text-decoration: none;
+    cursor: pointer;
+    border: unset;
+    padding: .5625rem 3.4375rem;
+    border-radius: 1.5625rem;
+}
+
+.error{
+    color: #FF3C30;
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 /* Contact Stop */
