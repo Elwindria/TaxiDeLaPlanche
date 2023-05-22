@@ -111,6 +111,7 @@ li{
     justify-content: center;
     align-items: center;
     background-image: url(/images/header_background.png);
+    background-size: cover;
 }
 
 #div_header{
@@ -118,6 +119,10 @@ li{
     flex-direction: column;
     justify-content: center;
     margin-top: 1.875rem;
+}
+
+#img_header{
+    width: 52.5rem;
 }
 
 #p_header{
@@ -506,4 +511,69 @@ form{
 }
 
 /* All hover stop */
+/* ================================ */
+/* ================================ */
+/* ================================ */
+/* ================================ */
+/* ================================ */
+/* ================================ */
+ /* Responsive start */
+
+ @media screen and (max-width: 1800px){
+    html{
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    html{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 75%;
+    }
+
+    #contact{
+        padding: 3.125rem 5.625rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    html{
+        font-size: 50%;
+    }
+
+    #discover_img{
+        width: 37.5rem;
+    }
+}
+
+ /* Responsaive stop */
 
