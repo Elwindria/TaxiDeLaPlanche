@@ -10,7 +10,7 @@ body{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-color: #fbfbfb;
+    background-color: #dbdbdb;
     display: flex;
     justify-content: center;
 }
@@ -373,6 +373,12 @@ form{
     gap: .625rem;
 }
 
+#foot_div_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #foot_link{
     display: flex;
     justify-content: space-around;
@@ -414,6 +420,7 @@ form{
 
 #legals{
     padding: 6.25rem 12.5rem;
+    background-color: #FBFBFB;
 }
 
 #legals_title{
