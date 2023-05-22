@@ -349,3 +349,65 @@ form{
 }
 
 /* Contact Stop */
+/* FootPage start */
+
+#foot_page{
+    background-color: #4B4B4B;
+    box-sizing: border-box;
+    padding: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot_page > div{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.foot_div_info{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+#foot_link{
+    display: flex;
+    justify-content: space-around;
+}
+
+#foot_trait{
+    width: 31.25rem;
+    height: .1875rem;
+    background: #FBFBFB;
+    border-radius: 1.5625rem;
+    align-self: center;
+}
+
+.foot_text{
+    text-align: center;
+    margin: 0;
+}
+
+.foot_text_bold_white{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FBFBFB;
+}
+
+.foot_text_regular{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #FBFBFB;
+}
+
+.foot_text_bold_gold{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FEBD19;
+}
+
+
+
+/* Footpage stop */
