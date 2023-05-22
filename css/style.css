@@ -10,13 +10,14 @@ body{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-color: #e7e7e7;
+    background-color: #fbfbfb;
     display: flex;
     justify-content: center;
 }
 
 #desktop{
     max-width: 120rem;
+    width: 100vw;
 }
 
 a{
@@ -408,6 +409,35 @@ form{
     color: #FEBD19;
 }
 
-
-
 /* Footpage stop */
+/* legals start */
+
+#legals{
+    padding: 6.25rem 12.5rem;
+}
+
+#legals_title{
+    font-weight: 800;
+    font-size: 1.875rem;
+}
+
+.legal_h2{
+    font-weight: 800;
+    font-size: 1.625rem;
+}
+
+.legal_p{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.text_bold{
+    font-weight: 700;
+}
+
+.text_gold{
+    color: #FEBD19;
+}
+
+/* legals stop */
+
