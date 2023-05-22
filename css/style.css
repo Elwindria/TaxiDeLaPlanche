@@ -95,8 +95,9 @@ li{
     color: #FBFBFB;
     background-color: #FEBD19;
     text-decoration: none;
-    padding: .5625rem 3.4375rem;
+    padding: .1875rem 3.4375rem;
     border-radius: 1.5625rem;
+    border: .1875rem solid #FEBD19;
 }
 
 /* NavBar Stop */
@@ -142,9 +143,10 @@ li{
     font-size: 2rem;
     line-height: 2.4375rem;
     color: #FBFBFB;
-    padding: .9375rem 3.125rem;
+    padding: .4375rem 3.125rem;
     background-color: #FEBD19;
     text-decoration: none;
+    border: .1875rem solid #FEBD19;
     border-radius: 3.125rem;
 }
 
@@ -346,8 +348,8 @@ form{
     background-color: #FEBD19;
     text-decoration: none;
     cursor: pointer;
-    border: unset;
-    padding: .5625rem 3.4375rem;
+    border: .1875rem solid #FEBD19;
+    padding: .1875rem 3.4375rem;
     border-radius: 1.5625rem;
 }
 
@@ -479,4 +481,29 @@ form{
 }
 
 /* site map stop */
+/* All hover start */
+
+#btn_discover_nav_bar:hover{
+    color: #E08820;
+}
+
+#btn_contact_nav_bar:hover{
+    color: #E08820;
+    background-color: #FBFBFB;
+    border-color: #E08820;
+}
+
+#btn_contact_header:hover{
+    color: #E08820;
+    background-color: #FBFBFB;
+    border-color: #E08820;
+}
+
+#submit:hover{
+    color: #E08820;
+    background-color: #FBFBFB;
+    border-color: #E08820;
+}
+
+/* All hover stop */
 
