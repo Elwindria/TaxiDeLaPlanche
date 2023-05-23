@@ -114,7 +114,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/header_background.png);
+    background-image: url(/images/header_background.webp);
     background-size: cover;
 }
 
@@ -652,7 +652,7 @@ form{
     /* Header start */
 
     #header{
-        background-image: url(/images/header_background_phone.png);
+        background-image: url(/images/header_background_phone.webp);
     }
 
     #div_header > picture{
