@@ -633,9 +633,86 @@ form{
     /* NavBar responsive stop  */
     /* Header start */
 
-    
+    #div_header > picture{
+        display: flex;
+        justify-content: center;
+    }
+
+    #img_header{
+        width: 70vw;
+    }
 
     /* header stop */
+    /* asset start */
+
+    #asset_div_main{
+        flex-direction: column;
+        align-items:center;
+        padding: 1.25rem;
+    }
+
+    #asset_left{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #asset_right{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    /* asset stop */
+    /* discover start */
+
+    #discover{
+        gap: 0;
+    }
+
+    #discover_div_main{
+        flex-direction: column-reverse;
+    }
+
+    #discover_img{
+        width: 100vw;
+    }
+
+    #discover_div_text{
+        padding: 1.25rem 1.25rem;
+    }
+
+    #discover_title{
+        text-align: center;
+    }
+
+    #discover_p{
+        text-align: center;
+    }
+
+    #discover_trait{
+        width: 70vw;
+    }
+
+    /* discover stop */
+    /* contact start */
+
+    #contact{
+        padding: 1.25rem 1.25rem;
+    }
+
+    #contact_div_main{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #contact_div_left{
+        width: 100%;
+    }
+
+    #contact_div_right{
+        width: 100%;
+    }
+
+    /* contact stop */
 
 }
 
