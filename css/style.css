@@ -27,6 +27,10 @@ a{
 /* ===================== */
 /* NavBar start  */
 
+#nav_responsive{
+    display: none;
+}
+
 .logo_nav_bar{
     width: 7.3125rem;
 }
