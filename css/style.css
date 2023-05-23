@@ -630,8 +630,28 @@ form{
         gap: 1.875rem;
     }
 
+    #nav_bar{
+        padding: 0 1.25rem;
+    }
+
+    #nav_bar_left{
+        gap: 1.25rem;
+    }
+
+    .logo_nav_bar{
+        width: 5rem;
+    }
+
+    #site_name{
+        font-size: 1.25rem;
+    }
+
     /* NavBar responsive stop  */
     /* Header start */
+
+    #header{
+        background-image: url(/images/header_background_phone.png);
+    }
 
     #div_header > picture{
         display: flex;
@@ -713,6 +733,14 @@ form{
     }
 
     /* contact stop */
+
+    /* Page legals start */
+
+    #legals{
+        padding: 1.25rem;
+    }
+
+    /* page legals stop */
 
 }
 
