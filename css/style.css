@@ -475,6 +475,7 @@ form{
     margin-top: 5.3125rem;
     background-color: #FBFBFB;
     width: 100vw;
+    max-width: 67.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
