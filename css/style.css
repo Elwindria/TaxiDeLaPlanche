@@ -589,7 +589,7 @@ form{
     /* NavBar responsive start */
 
     #nav_responsive{
-        display: none;
+        display: flex;
         position: absolute;
         top: 5.3125rem;
         left: 0;
@@ -597,6 +597,8 @@ form{
         padding: .9375rem;
         background-color: #fbfbfb;
         width: 100vw;
+        transition: 1s;
+        transform: translateX(100%);
     }
 
     #nav{
