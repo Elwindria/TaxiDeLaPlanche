@@ -91,7 +91,7 @@ li{
     text-decoration-line: none;
 }
 
-#btn_contact_nav_bar{
+.btn_contact_nav_bar{
     font-style: italic;
     font-weight: 700;
     font-size: 1.625rem;
@@ -492,11 +492,11 @@ form{
 /* site map stop */
 /* All hover start */
 
-#btn_discover_nav_bar:hover{
+.btn_discover_nav_bar:hover{
     color: #E08820;
 }
 
-#btn_contact_nav_bar:hover{
+.btn_contact_nav_bar:hover{
     color: #E08820;
     background-color: #FBFBFB;
     border-color: #E08820;
