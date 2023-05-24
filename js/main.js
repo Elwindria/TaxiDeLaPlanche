@@ -66,6 +66,8 @@ inputSubmit.addEventListener('click', function(e){
 
     //Lance la vérification JS du Form et de ses inputs
     checkValidityForm(e);
+
+    createAjaxForFormToEmail();
   })
 
  //Function vérification inputs du Form
@@ -87,7 +89,7 @@ function checkValidityForm(e){
     }
 
     if(!emailRegex.test(inputEmail.value)){
-        errorEmail.textContent = "le mail n'est pas valide";
+        errorEmail.textContent = "le champ mail n'est pas valide";
         validate = false;
     }
 
@@ -107,10 +109,6 @@ function checkValidityForm(e){
     });
 
     if(validate){
-
-        //On submit le form, car je l'ai preventDefault pour la vérif JS + msg d'erreur perso
-        form.submit();
-
         //Création du FormData pour envoyer en php etc
         createAjaxForFormToEmail();
     }
@@ -151,7 +149,12 @@ function createAjaxForFormToEmail(){
       } else if(result.includes('inputEmailNonValide')) {
         
         spanConfirm.style.color= "#FF3C30";
-        spanConfirm.textContent = "Les champs mail n'est pas valide.";
+        spanConfirm.textContent = "Le champs mail n'est pas valide.";
+
+      } else if(result.includes('inputTelNonValide')) {
+        
+        spanConfirm.style.color= "#FF3C30";
+        spanConfirm.textContent = "Les champs téléphone n'est pas valide.";
   
       } else {
   

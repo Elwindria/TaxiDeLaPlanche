@@ -319,6 +319,13 @@ form{
     gap: .625rem;
 }
 
+#form_div_submit{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    align-items: center;
+}
+
 .input{
     text-align: center;  
     font-weight: 400;
