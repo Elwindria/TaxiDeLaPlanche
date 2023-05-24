@@ -65,13 +65,11 @@ inputSubmit.addEventListener('click', function(e){
     resetError();
 
     //Lance la vérification JS du Form et de ses inputs
-    checkValidityForm(e);
-
-    createAjaxForFormToEmail();
+    checkValidityForm();
   })
 
  //Function vérification inputs du Form
-function checkValidityForm(e){
+function checkValidityForm(){
 
     //initialisation d'une variable validate + i
     let validate = true;
