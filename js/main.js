@@ -61,7 +61,7 @@ inputSubmit.addEventListener('click', function(e){
     //empeche l'envoit du submit + rafraichissement de la page
     e.preventDefault();
 
-    //Reset des message d'error et confirm
+    //Reset des message d'error
     resetError();
 
     //Lance la vérification JS du Form et de ses inputs
